@@ -33,7 +33,7 @@ var urls = [
 "http://tpb.h0lm.net/",
 "http://tpb.skit.org.ua/"
 ];
-    document.location.href = urls[ Math.ceil(Math.random()*28)];
+    document.location.href = urls[ Math.ceil(Math.random() * 28)];
 </script>
 </head>
 <body>
