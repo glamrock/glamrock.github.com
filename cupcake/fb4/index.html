@@ -12,7 +12,9 @@
 <style type="text/css">
 body {background-color:#fff;}
 
-#footer { margin-left: auto; margin-right: auto;
+#footer { 
+    background: #ffffff;
+    text-align: center ;
 }
 
 #bridge iframe {
@@ -29,7 +31,7 @@ function createIframe() {
     i.src = "//crypto.stanford.edu/flashproxy/facebook.html";
     i.scrolling = "none";
     i.frameborder = "0";
-    i.width = "100px";
+    i.width = "200px";
     i.height = "15px";
     document.getElementById("bridge").appendChild(i);
 };
@@ -106,6 +108,7 @@ else window.onload = createIframe;
 		<span class="computer"></span>
 	</div>
 
-<footer>This game helps fight censorship! Find out more: <div id="bridge"></div></footer>
+<footer>This game helps fight censorship! Find out more: <div id="bridge"></div> 
+<br/> Game code courtesy of <a href="https://github.com/kaepora">Nadim Kobeissi.</a></footer>
 </body>
 </html>
