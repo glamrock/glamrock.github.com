@@ -1,4 +1,26 @@
-body {;}
+body {
+    font-family: Oxygen;
+    font-size: 13px;
+}
+
+h1 {
+    font-size:24px;
+    font-family: Milonga;
+}
+
+h2 {
+    font-size:30px;
+    font-family: Milonga;
+}
+
+h3 {
+    font-size:40px;
+    font-family: Milonga;
+}
+
+code {
+    font: 12px Oxygen Mono;
+}
 
 #wrapper {
     width: 1000px;
@@ -24,6 +46,7 @@ header {
 }
 
 #right {
+    float: right;
     width: 500px;
     padding: 10px;
     text-align: left;
