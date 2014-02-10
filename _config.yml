@@ -14,7 +14,8 @@ paginate: 5
 #
 title : Commotion Wireless | {{page.title}}
 tagline: 
-author : Open Technology Institute
+author : 
+  name: Open Technology Institute
   email : griffin@opentechinstitute.org
   github : opentechinstitute
   twitter : OTI
