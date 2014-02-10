@@ -1,8 +1,7 @@
 ---
 layout: nil
-title : RSS Feed
+title : Commotion Wireless RSS Feed
 ---
-
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
@@ -13,7 +12,6 @@ title : RSS Feed
         <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
         <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
         <ttl>1800</ttl>
-
 {% for post in site.posts %}
         <item>
                 <title>{{ post.title }}</title>
@@ -23,6 +21,5 @@ title : RSS Feed
                 <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
         </item>
 {% endfor %}
-
 </channel>
 </rss>
