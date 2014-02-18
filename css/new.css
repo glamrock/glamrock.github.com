@@ -82,14 +82,22 @@ img .arrow {
 }
 
 /* FOOTER */
-.footer {
+footer {
     width: 100%;
 }
 
-ul .menu li {
+footer ul .menu li {
     display: inline;
     width: 50%;
     min-width: 220px;
 }
+
+
+ul.menu li {
+    display: inline;
+    width: 50%;
+    min-width: 220px;
+}
+
 
 
