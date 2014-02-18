@@ -86,7 +86,7 @@ img .arrow {
     width: 100%;
 }
 
-footer ul .menu {
+ul .menu {
     display: inline;
     width: 50%;
     min-width: 220px;
