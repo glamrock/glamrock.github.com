@@ -1,0 +1,60 @@
+<footer>
+    <img class="arrow" src="images/whitearrow.png" />
+
+    <ul class="menu">
+        <li><a href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+        <li><a href="/contact.html" title="">Contact</a></li>
+        <li><a href="/jobs.html" title="">Jobs</a></li>
+        <li><a href="/press.html" title="">Press</a></li>
+        <li><a href="/license.html" title="">License</a></li>
+        <li><a href="/privacy.html" title="">Privacy</a></li>
+    </ul>
+    <p><img src="images/cc_footer.png"> {{ site.time | date: '%Y' }} <a href="https://opentechinstitute.org/">Open Technology Institute</a></p>
+
+<!-- SOCIAL MEDIA -->
+	<ul class="menu">
+		<li><a href="https://twitter.com/oti"><img src="images/twitter.png"></a></li>
+	</ul>
+
+</footer>
+
+</div> <!-- end container -->
+
+<script src="/js/reveal/lib/js/head.min.js"></script>
+<script src="/js/reveal/js/reveal.min.js"></script>
+
+<script>
+
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+	controls: true,
+	progress: true,
+	history: false,
+	embedded: true,
+	center: true,
+	loop: true,
+	autoslide: 7000,
+	width: 960,
+	height: 300,
+
+	theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+	transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+	// Parallax scrolling
+	// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+	// parallaxBackgroundSize: '2100px 900px',
+
+	// Optional libraries used to extend on reveal.js
+	dependencies: [
+		{ src: '/js/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+		{ src: '/js/reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		{ src: '/js/reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		{ src: '/js/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+		{ src: '/js/reveal/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+		{ src: '/js/reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+	]
+});
+
+</script>
+  </body> 
+</html>
