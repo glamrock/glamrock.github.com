@@ -54,12 +54,14 @@ body {
 
 /* Arrow divider */
 
-img .arrow {
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+img.arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 38px;
     height: 27px;
-    padding-bottom: 15px;
+    margin-top: -10px;
+    margin-bottom: 5px;
     clear: both;
 }
 
@@ -82,18 +84,11 @@ img .arrow {
 }
 
 /* FOOTER */
-footer {
+.footer {
     width: 100%;
 }
 
-footer ul .menu li {
-    display: inline;
-    width: 50%;
-    min-width: 220px;
-}
-
-
-ul.menu li {
+ul .menu li {
     display: inline;
     width: 50%;
     min-width: 220px;
