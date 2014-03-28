@@ -1,5 +1,7 @@
 html {
     overflow-y: auto;
+    width: 900px;
+    background-color: #000000;
 }
 
 body {
