@@ -202,7 +202,7 @@ function animate() {
     c.fillRect(0,0,cWidth,cHeight);
 
     //gnote: background image
-    var w = canvas.width = 1000;
+    var w = canvas.width = 1200;
 var h = canvas.height;
 var img = new Image();
 
