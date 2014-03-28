@@ -1,0 +1,25 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "Satori",
+  "description": "Tamper-resistant downloads of security software",
+  "version": "0.1",
+  "manifest_version": 2,
+  "offline_enabled": true,
+  "minimum_chrome_version": "23",
+  "app": {
+    "background": {
+      "scripts": [
+        "sparkle.js"
+      ]
+    }
+  },
+  "icons": {
+     "48": "img/48.png"
+  },
+  "permissions": [
+    "fileSystem",
+    "clipboardWrite",
+    "storage"
+  ]
+}
