@@ -1,4 +1,4 @@
-    var PI = Math.PI;
+var PI = Math.PI;
 
 var canvas = document.getElementById("can");
 var c = canvas.getContext("2d");
